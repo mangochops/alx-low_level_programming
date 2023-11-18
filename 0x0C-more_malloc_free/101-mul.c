@@ -80,7 +80,7 @@ int get_digit(char c)
 
 	if (digit < 0 || digit > 9)
 	{
-		printf("Error\n");
+		fprintf(stderr, "Error\n");
 		exit(98);
 	}
 
@@ -230,4 +230,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
