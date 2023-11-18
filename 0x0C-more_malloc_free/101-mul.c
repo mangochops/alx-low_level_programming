@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/* Declaration of _putchar function */
+void _putchar(char c);
 #define ERR_MSG "Error"
 
 /**
